@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Launcher {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Launcher.class, args);
+		SpringApplication app = new SpringApplication(Launcher.class);
+		//app.setBannerMode(Mode.OFF); // Disable banner
+		app.run(args);
 	}
 
 }

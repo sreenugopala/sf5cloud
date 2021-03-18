@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sreenivaasamu.demoz.sfcloud</groupId>
-	<artifactId>Baseline</artifactId>
+	<artifactId>Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Baseline</name>
 	<description>Demo project for Spring Boot</description>

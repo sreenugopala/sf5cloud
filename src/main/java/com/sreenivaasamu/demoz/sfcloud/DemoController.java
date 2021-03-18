@@ -18,7 +18,7 @@ public class DemoController {
 
 	@RequestMapping(method = RequestMethod.GET, path = "demobean")
 	public DemoData processBean() {
-		return new DemoData("Om Ganeshaya Namaha");
+		return new DemoData("Om Venkateshaya Namaha");
 	}
 	
 }

@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.sreenivaasamu.demoz.sfcloud.data.DemoData;
+
 @RestController
 public class DemoController {
 	
@@ -14,4 +16,9 @@ public class DemoController {
 		return "Om Ganeshaya Namaha";
 	}
 
+	@RequestMapping(method = RequestMethod.GET, path = "demobean")
+	public DemoData processBean() {
+		return new DemoData("Om Ganeshaya Namaha");
+	}
+	
 }
